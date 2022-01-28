@@ -185,7 +185,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://cdn3.vectorstock.com/i/1000x1000/22/37/big-data-developer-header-banner-vector-23242237.jpg") no-repeat center;
+    background: url("images/banner2.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
