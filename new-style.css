@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
 .download {
     background: red;
     padding: 10px;
@@ -53,7 +56,8 @@
 }
 
 /* one */
-.project1, .one{
+.project1, .one{    
+    font-family: Arial, Helvetica, sans-serif;
     color:#fff;
     background: #111;
 }
@@ -101,6 +105,7 @@
 
 /* two */
 .project2, .one{
+    font-family: Arial, Helvetica, sans-serif;
     color:#111;
     background: #fff;
 }
@@ -148,6 +153,7 @@
 
 /* three */
 .project3, .two{
+    font-family: Arial, Helvetica, sans-serif;
     color:#fff;
     background: #111;
 }
