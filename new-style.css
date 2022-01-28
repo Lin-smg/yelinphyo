@@ -99,14 +99,14 @@
 }
 
 
-
+/* two */
 .project2, .one{
     color:#111;
     background: #fff;
 }
 .project2 .title::before,
 .one .title::before{
-    background: #111;
+    background: #fff;
 }
 .project2 .title::after,
 .one .title::after{
@@ -141,6 +141,52 @@
     color: #fff;
 }
 .project2 .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+/* three */
+.project3, .two{
+    color:#fff;
+    background: #111;
+}
+.project3 .title::before,
+.one .title::before{
+    background: #fff;
+}
+.project3 .title::after,
+.one .title::after{
+    background: #111;
+    content: "Desktop Game (Vuejs, Electron)";
+}
+.project3 .serv-content .card{
+    width: calc(25% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.project3 .serv-content .card:hover{
+    background: crimson;
+}
+.project3 .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.project3 .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.project3 .serv-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.project3 .serv-content .card:hover i{
+    color: #fff;
+}
+.project3 .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
