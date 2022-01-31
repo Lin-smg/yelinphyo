@@ -165,7 +165,7 @@
 .project3 .title::after,
 .one .title::after{
     background: #111;
-    content: "Desktop Game (Vuejs, Electron)";
+    content: "Desktop Game";
 }
 .project3 .serv-content .card{
     width: calc(80% - 20px);
