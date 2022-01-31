@@ -68,10 +68,10 @@
 .project1 .title::after,
 .one .title::after{
     background: #111;
-    content: "Android App (Flutter)";
+    content: "Android App";
 }
 .project1 .serv-content .card{
-    width: calc(25% - 20px);
+    width: calc(80% - 20px);
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -103,6 +103,7 @@
 }
 
 
+
 /* two */
 .project2, .one{
     font-family: Arial, Helvetica, sans-serif;
@@ -111,15 +112,15 @@
 }
 .project2 .title::before,
 .one .title::before{
-    background: #fff;
+    background: #111;
 }
 .project2 .title::after,
 .one .title::after{
     background: #fff;
-    content: "Android App (Flutter)";
+    content: "Android App";
 }
 .project2 .serv-content .card{
-    width: calc(25% - 20px);
+    width: calc(80% - 20px);
     background: red;
     text-align: center;
     border-radius: 6px;
@@ -167,7 +168,7 @@
     content: "Desktop Game (Vuejs, Electron)";
 }
 .project3 .serv-content .card{
-    width: calc(25% - 20px);
+    width: calc(80% - 20px);
     background: #222;
     text-align: center;
     border-radius: 6px;
