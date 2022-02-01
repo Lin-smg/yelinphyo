@@ -198,3 +198,52 @@
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+
+/* four */
+.project4, .one{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#111;
+    background: #fff;
+}
+.project4 .title::before,
+.one .title::before{
+    background: #111;
+}
+.project4 .title::after,
+.one .title::after{
+    background: #fff;
+    content: "Web App";
+}
+.project4 .serv-content .card{
+    width: calc(80% - 20px);
+    background: red;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+.project4 .serv-content .card:hover{
+    background: crimson;
+}
+.project4 .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.project4 .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.project4 .serv-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.project4 .serv-content .card:hover i{
+    color: #fff;
+}
+.project4 .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
