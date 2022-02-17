@@ -247,3 +247,52 @@
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+
+/* five */
+.project5, .one{    
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    background: #111;
+}
+.project5 .title::before,
+.one .title::before{
+    background: #fff;
+}
+.project5 .title::after,
+.one .title::after{
+    background: #111;
+    content: "Android App";
+}
+.project5 .serv-content .card{
+    width: calc(80% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.project5 .serv-content .card:hover{
+    background: crimson;
+}
+.project5 .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.project5 .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.project5 .serv-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.project5 .serv-content .card:hover i{
+    color: #fff;
+}
+.project5 .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
