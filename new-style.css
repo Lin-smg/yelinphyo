@@ -165,7 +165,7 @@
 .project3 .title::after,
 .one .title::after{
     background: #111;
-    content: "Desktop Game";
+    content: "Android App";
 }
 .project3 .serv-content .card{
     width: calc(80% - 20px);
@@ -296,3 +296,51 @@
     margin: 10px 0 7px 0;
 }
 
+
+/* six */
+.project6, .one{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#111;
+    background: #fff;
+}
+.project6 .title::before,
+.one .title::before{
+    background: #111;
+}
+.project6 .title::after,
+.one .title::after{
+    background: #fff;
+    content: "Desktop Game";
+}
+.project6 .serv-content .card{
+    width: calc(80% - 20px);
+    background: red;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+.project6 .serv-content .card:hover{
+    background: crimson;
+}
+.project6 .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.project6 .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.project6 .serv-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.project6 .serv-content .card:hover i{
+    color: #fff;
+}
+.project6 .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
