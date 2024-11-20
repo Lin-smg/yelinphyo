@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Web Developer", "Software Engineer", "Web Developer", "Freelancer"],
+        strings: ["Web Developer", "Software Engineer", "Web Developer", "Freelancer", "Cloud and Website Infrastructure Manager"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
